@@ -39,7 +39,7 @@ export const HeaderRight = styled.div`
   svg {
     height: 20px;
     width: 20px;
-    color: ##707070;
+    color: #707070;
 
     margin-right: 8px;
     margin-left: 8px;
