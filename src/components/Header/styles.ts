@@ -52,6 +52,7 @@ export const InputSearch = styled.input`
   width: 75%;
   ::placeholder {
     color: #838c91;
+    font-size: 14px;
   }
 `
 

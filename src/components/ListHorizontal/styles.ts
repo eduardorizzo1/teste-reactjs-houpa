@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  width: 100%;
 `
 
 export const AvatarImg = styled.img`
@@ -88,4 +89,12 @@ export const Favorite = styled.div`
 export const ProductImgContainer = styled.div`
   display: flex;
   flex-direction: row-reverse;
+`
+
+export const ProductList = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 `
