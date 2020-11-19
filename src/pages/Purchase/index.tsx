@@ -13,6 +13,7 @@ import {
   Container,
   Favorite,
   TitleLink,
+  TitleWithFavorite,
   ContainerPurchase,
   PurchaseDescription,
   ImgContainer,
@@ -62,10 +63,12 @@ const Purchase: React.FC = () => {
         </ImgContainer>
 
         <PurchaseDescription>
-          <Favorite>
-            <FiHeart />
-          </Favorite>
-          <h5>Vestidos</h5>
+          <TitleWithFavorite>
+            <h5>Vestidos</h5>
+            <Favorite>
+              <FiHeart />
+            </Favorite>
+          </TitleWithFavorite>
           <h4>Vestido curto</h4>
           <h6>
             Produzido e entregue por Madame Ristow <br /> Vendido por: Pantheon

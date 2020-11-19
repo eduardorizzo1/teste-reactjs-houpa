@@ -28,5 +28,5 @@ export default createGlobalStyle`
 `
 
 export const ContainerRoutes = styled.div`
-  margin: 0px 300px;
+  margin: 0 12em;
 `

@@ -22,6 +22,11 @@ export const TitleLink = styled.div`
   }
 `
 
+export const TitleWithFavorite = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
 export const ContainerPurchase = styled.div`
   display: flex;
   flex-direction: row;
@@ -30,7 +35,7 @@ export const ContainerPurchase = styled.div`
 
 export const PurchaseDescription = styled.div`
   width: 50%;
-  padding: 10px 200px;
+  padding: 10px 100px;
 
   display: flex;
   flex-direction: column;
@@ -56,14 +61,12 @@ export const PurchaseDescription = styled.div`
 `
 
 export const Favorite = styled.div`
-  display: flex;
-  align-self: flex-end;
-  position: absolute;
   background-color: #fff;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin: 10px;
+  padding-right: 15px;
+  margin-left: 200px;
 
   display: flex;
   align-items: center;
@@ -172,10 +175,12 @@ export const SelectQuantity = styled.div`
 
 export const ButtonsContainer = styled.div`
   margin: 25px 0 50px 0;
+  display: flex;
+  flex-direction: column;
 `
 
 export const ButtonBuy = styled.button`
-  width: 100%;
+  width: 200px;
   border-radius: 4px;
   background-color: #000;
   color: #fff;
@@ -187,7 +192,7 @@ export const ButtonBuy = styled.button`
 `
 
 export const ButtonShoppingCart = styled.button`
-  width: 100%;
+  width: 200px;
   border-radius: 4px;
   background-color: #fff;
   color: #000;
@@ -222,6 +227,7 @@ export const ShippingContainer = styled.div`
 export const ShippingInput = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 5px;
   width: 100%;
 
@@ -231,11 +237,11 @@ export const ShippingInput = styled.div`
     border: solid 1px #e9e9e9;
     height: 40px;
     padding: 6px 16px;
-    width: 60%;
+    width: 200px;
+    margin-right: 16px;
   }
 
   button {
-    margin-left: 16px;
     border-radius: 4px;
     background-color: #000;
     border: 0;
