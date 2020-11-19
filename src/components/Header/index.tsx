@@ -31,7 +31,7 @@ const Header: React.FC = () => {
 
         <FcContainer>
           <FiShoppingCart color="#652e95" />
-          <h4>Meu carrinho</h4>
+          <h4>Meu carrinho | R$ 0,00</h4>
         </FcContainer>
       </HeaderRight>
     </Container>

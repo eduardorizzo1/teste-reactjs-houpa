@@ -1,7 +1,9 @@
 import React from 'react'
 import { FiHeart } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 import productImg from '../../assets/image-product.png'
+
 import {
   ContainerProduct,
   ProductImgContainer,
@@ -27,7 +29,9 @@ const ProductCard: React.FC = () => {
 
       <h3>R$ 57,00</h3>
 
-      <button>Comprar</button>
+      <Link to="/purchase">
+        <button>Comprar</button>
+      </Link>
     </ContainerProduct>
   )
 }
