@@ -1,19 +1,10 @@
 import React from 'react'
 
-import productImg from '../../assets/image-product.png'
 import avatarImg from '../../assets/avatar.png'
 
-import {
-  Container,
-  AvatarImg,
-  ContainerAvatar,
-  ContainerProduct,
-  ProductDescription,
-  Favorite,
-  ProductImgContainer,
-  ProductList,
-} from './styles'
-import { FiChevronLeft, FiChevronRight, FiHeart } from 'react-icons/fi'
+import { Container, AvatarImg, ContainerAvatar, ProductList } from './styles'
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'
+import ProductCard from '../ProductCard'
 
 const ListHorizontal: React.FC = () => {
   return (
@@ -25,24 +16,10 @@ const ListHorizontal: React.FC = () => {
 
       <ProductList>
         <FiChevronLeft size={30} />
-        <ContainerProduct>
-          <ProductImgContainer>
-            <img src={productImg} alt="product-img" />
-            <Favorite>
-              <FiHeart />
-            </Favorite>
-          </ProductImgContainer>
-
-          <ProductDescription>
-            <h4>
-              Blusa Feminina Básica <br /> Manga Curta Marisa
-            </h4>
-          </ProductDescription>
-
-          <h3>R$ 57,00</h3>
-
-          <button>Comprar</button>
-        </ContainerProduct>
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
         <FiChevronRight size={30} />
       </ProductList>
     </Container>
