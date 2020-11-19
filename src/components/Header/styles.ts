@@ -49,7 +49,7 @@ export const HeaderRight = styled.div`
 export const InputSearch = styled.input`
   border: 0;
   border-bottom: 1px solid #838c91;
-  width: 90%;
+  width: 75%;
   ::placeholder {
     color: #838c91;
   }
