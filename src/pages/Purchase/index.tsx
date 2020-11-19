@@ -11,6 +11,7 @@ import {
 import imgProduct from '../../assets/product-top@2x.png'
 import {
   Container,
+  Favorite,
   TitleLink,
   ContainerPurchase,
   PurchaseDescription,
@@ -29,6 +30,7 @@ import {
   SocialContainer,
   SocialNetworks,
 } from './style'
+import { FiHeart } from 'react-icons/fi'
 
 const Purchase: React.FC = () => {
   return (
@@ -60,6 +62,9 @@ const Purchase: React.FC = () => {
         </ImgContainer>
 
         <PurchaseDescription>
+          <Favorite>
+            <FiHeart />
+          </Favorite>
           <h5>Vestidos</h5>
           <h4>Vestido curto</h4>
           <h6>

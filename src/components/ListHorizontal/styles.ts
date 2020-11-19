@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: flex-start;
   justify-content: center;
   width: 100%;
+  margin-bottom: 50px;
 `
 
 export const AvatarImg = styled.img`

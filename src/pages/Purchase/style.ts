@@ -55,6 +55,25 @@ export const PurchaseDescription = styled.div`
   }
 `
 
+export const Favorite = styled.div`
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    color: #e16868;
+  }
+`
+
 export const ImgContainer = styled.div`
   width: 50%;
   display: flex;

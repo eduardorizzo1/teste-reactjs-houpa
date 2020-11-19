@@ -8,6 +8,7 @@ const Dashboard: React.FC = () => {
   return (
     <Container>
       <ListHorizontal />
+      <ListHorizontal />
     </Container>
   )
 }
